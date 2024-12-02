@@ -5,8 +5,21 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "release": "standard-version",
+    "prerelease": "npm run test && npm run lint && npm run build",
+    "postrelease": "git push --follow-tags origin main",
+    "lint": "ng lint",
+    "version:major": "npm version major && git push --tags",
+    "version:minor": "npm version minor && git push --tags",
+    "version:patch": "npm version patch && git push --tags",
+    "publish": "npm run build && npm publish --access public",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   },
   "private": true,
   "dependencies": {
@@ -27,8 +40,10 @@
     "@angular/cli": "^18.0.2",
     "@angular/compiler-cli": "^18.0.0",
     "@types/jasmine": "~5.1.0",
+    "angular-eslint": "19.0.0",
     "commitizen": "^4.3.1",
     "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^9.15.0",
     "jasmine-core": "~5.1.0",
     "karma": "~6.4.0",
     "karma-chrome-launcher": "~3.2.0",
@@ -37,6 +52,7 @@
     "karma-jasmine-html-reporter": "~2.1.0",
     "ng-packagr": "^18.2.0",
     "standard-version": "^9.5.0",
-    "typescript": "~5.4.2"
+    "typescript": "~5.4.2",
+    "typescript-eslint": "8.16.0"
   }
 }
