@@ -1,11 +1,14 @@
 {
   "name": "@ng-wind/material",
-  "version": "0.1.16",
+  "version": "0.1.23",
   "description": "An Angular library for demonstration purposes",
   "main": "bundles/material.umd.js",
   "module": "fesm2015/material.js",
   "es2015": "fesm2015/material.js",
   "typings": "material.d.ts",
+  "scripts": {
+    "release": "standard-version"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/AntoniadisCorp/ng-wind.git"
