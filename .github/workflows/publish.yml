@@ -33,9 +33,13 @@ jobs:
 
       - name: Set Config NPM Auth
         run: |
-          npm config set registry https://registry.npm.pkg.github.com
-          npm config set //registry.npm.pkg.github.com/:_authToken ${{ secrets.NPM_TOKEN }}
+          npm config set registry https://registry.npmjs.org
+          npm config set //registry.npmjs.org/:_authToken ${{ secrets.NPM_TOKEN }}
 
-      - run: npm run publish
+      - name: Build Packages
+        run: npm run build
+
+      - name: Publish package on NPM 📦
+        run: npm publish ./dist/material --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
