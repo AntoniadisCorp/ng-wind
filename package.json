@@ -1,6 +1,6 @@
 {
   "name": "ng-wind",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "repository": {
     "type": "git",
     "url": "https://github.com/AntoniadisCorp/ng-wind.git"
@@ -19,7 +19,6 @@
   "homepage": "https://github.com/AntoniadisCorp/ng-wind#readme",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
     "build": "ng build",
     "lint": "ng lint",
     "gitpush": "npx cz",
