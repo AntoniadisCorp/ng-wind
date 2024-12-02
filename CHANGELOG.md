@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.8](https://github.com/AntoniadisCorp/ng-wind/compare/v0.2.5...v0.2.8) (2024-12-02)
+
+
+### Features
+
+* **ripple.module:** add test files ([af428bd](https://github.com/AntoniadisCorp/ng-wind/commit/af428bd26ca116e43a542dbbb52eb1e342e48b77))
+
+### [0.2.8](https://github.com/AntoniadisCorp/ng-wind/compare/v0.2.7...v0.2.8) (2024-12-02)
+
+### [0.2.7](https://github.com/AntoniadisCorp/ng-wind/compare/v0.2.5...v0.2.7) (2024-12-02)
+
+
+### Features
+
+* **ripple.module:** add test files ([af428bd](https://github.com/AntoniadisCorp/ng-wind/commit/af428bd26ca116e43a542dbbb52eb1e342e48b77))
+
 ### [0.2.6](https://github.com/AntoniadisCorp/ng-wind/compare/v0.2.5...v0.2.6) (2024-12-02)
 
 
