@@ -18,6 +18,7 @@ jobs:
         with:
           node-version: "20"
           cache: "npm" # Cache npm packages to speed up future builds
+          registry-url: "https://npm.pkg.github.com"
 
       - name: Install dependencies
         run: npm ci
@@ -34,6 +35,13 @@ jobs:
         run: npm run build
 
       - name: Publish to npm
+        run: npm publish dist/material --access public
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+      - uses: actions/setup-node@v4
+        with:
+          registry-url: "https://npm.pkg.github.com"
+
+      - run: npm publish dist/material --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.G_TOKEN }}
-        run: npm publish dist/material --access public
