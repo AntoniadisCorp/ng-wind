@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.2](https://github.com/AntoniadisCorp/ng-wind/compare/v0.2.1...v0.2.2) (2024-12-02)
+
+
+### Bug Fixes
+
+* **package-lock.json:** automation github actions error ([fa73fc0](https://github.com/AntoniadisCorp/ng-wind/commit/fa73fc0960d9f63793bbef8c150bf8dc78262d90))
+
 ### [0.2.1](https://github.com/AntoniadisCorp/ng-wind/compare/v0.2.0...v0.2.1) (2024-12-02)
 
 ### [0.1.23](https://github.com/AntoniadisCorp/ng-wind/compare/v0.1.22...v0.1.23) (2024-12-02)
