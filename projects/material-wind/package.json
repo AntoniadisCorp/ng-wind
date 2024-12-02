@@ -1,0 +1,28 @@
+{
+  "name": "material-wind",
+  "version": "0.1.0",
+  "description": "An Angular library for demonstration purposes",
+  "main": "bundles/material-wind.umd.js",
+  "module": "fesm2015/material-wind.js",
+  "es2015": "fesm2015/material-wind.js",
+  "typings": "material-wind.d.ts",
+  "scripts": {
+    "build": "ng build material-wind",
+    "release": "standard-version",
+    "prerelease": "npm run test && npm run lint && npm run build",
+    "postrelease": "git push --follow-tags origin main"
+  },
+  "sideEffects": false,
+  "peerDependencies": {
+    "@angular/common": "^16.0.0",
+    "@angular/core": "^16.0.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}

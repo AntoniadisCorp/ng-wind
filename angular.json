@@ -3,5 +3,35 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
+    "material-wind": {
+      "projectType": "library",
+      "root": "projects/material-wind",
+      "sourceRoot": "projects/material-wind/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "projects/material-wind/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/material-wind/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/material-wind/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "tsConfig": "projects/material-wind/tsconfig.spec.json",
+            "polyfills": ["zone.js", "zone.js/testing"]
+          }
+        }
+      }
+    }
   }
 }
