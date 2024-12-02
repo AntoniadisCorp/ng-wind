@@ -25,7 +25,7 @@
     "gitpush": "npx cz",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "lerna": "lerna exec -- npm run release",
+    "lerna": "lerna exec -- npm run release:patch",
     "release": "standard-version",
     "release:minor": "standard-version --release-as minor",
     "release:major": "standard-version --release-as major",
