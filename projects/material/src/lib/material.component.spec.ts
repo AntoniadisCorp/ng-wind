@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { MaterialWindComponent } from './material-wind.component';
+import { MaterialWindComponent } from './material.component';
 
 describe('MaterialWindComponent', () => {
   let component: MaterialWindComponent;
@@ -10,7 +10,7 @@ describe('MaterialWindComponent', () => {
     await TestBed.configureTestingModule({
       imports: [MaterialWindComponent]
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(MaterialWindComponent);
     component = fixture.componentInstance;

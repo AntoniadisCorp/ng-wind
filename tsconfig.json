@@ -10,8 +10,8 @@
     "noFallthroughCasesInSwitch": true,
     "skipLibCheck": true,
     "paths": {
-      "material-wind": [
-        "./dist/material-wind"
+      "material": [
+        "./dist/material"
       ]
     },
     "esModuleInterop": true,

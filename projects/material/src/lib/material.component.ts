@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'lib-material-wind',
+  selector: 'lib-material',
   standalone: true,
   imports: [],
   template: `
     <p>
-      material-wind works!
+      material works!
     </p>
   `,
   styles: ``

@@ -1,6 +1,6 @@
 import { TestBed } from '@angular/core/testing';
 
-import { MaterialWindService } from './material-wind.service';
+import { MaterialWindService } from './material.service';
 
 describe('MaterialWindService', () => {
   let service: MaterialWindService;

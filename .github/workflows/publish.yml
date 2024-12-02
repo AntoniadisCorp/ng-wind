@@ -11,15 +11,19 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Set up Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
-          node-version: "18.19"
+          node-version: "20"
+          cache: "npm" # Cache npm packages to speed up future builds
 
       - name: Install dependencies
         run: npm ci
+
+      - name: Run tests
+        run: npm test
 
       - name: Build the library
         run: npm run build
@@ -27,4 +31,4 @@ jobs:
       - name: Publish to npm
         env:
           NODE_AUTH_TOKEN: ${{ secrets.G_TOKEN }}
-        run: npm publish dist/material-wind --access public
+        run: npm publish dist/material --access public

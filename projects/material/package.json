@@ -1,11 +1,11 @@
 {
-  "name": "material-wind",
+  "name": "@ng-wind/material",
   "version": "0.1.0",
   "description": "An Angular library for demonstration purposes",
-  "main": "bundles/material-wind.umd.js",
-  "module": "fesm2015/material-wind.js",
-  "es2015": "fesm2015/material-wind.js",
-  "typings": "material-wind.d.ts",
+  "main": "bundles/material.umd.js",
+  "module": "fesm2015/material.js",
+  "es2015": "fesm2015/material.js",
+  "typings": "material.d.ts",
   "sideEffects": false,
   "peerDependencies": {
     "@angular/common": "^16.0.0",

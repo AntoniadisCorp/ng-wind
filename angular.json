@@ -3,23 +3,23 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "material-wind": {
+    "material": {
       "projectType": "library",
-      "root": "projects/material-wind",
-      "sourceRoot": "projects/material-wind/src",
+      "root": "projects/material",
+      "sourceRoot": "projects/material/src",
       "prefix": "lib",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
-            "project": "projects/material-wind/ng-package.json"
+            "project": "projects/material/ng-package.json"
           },
           "configurations": {
             "production": {
-              "tsConfig": "projects/material-wind/tsconfig.lib.prod.json"
+              "tsConfig": "projects/material/tsconfig.lib.prod.json"
             },
             "development": {
-              "tsConfig": "projects/material-wind/tsconfig.lib.json"
+              "tsConfig": "projects/material/tsconfig.lib.json"
             }
           },
           "defaultConfiguration": "production"
@@ -27,29 +27,24 @@
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "tsConfig": "projects/material-wind/tsconfig.spec.json",
-            "polyfills": [
-              "zone.js",
-              "zone.js/testing"
-            ]
+            "tsConfig": "projects/material/tsconfig.spec.json",
+            "polyfills": ["zone.js", "zone.js/testing"]
           }
         },
         "lint": {
           "builder": "@angular-eslint/builder:lint",
           "options": {
             "lintFilePatterns": [
-              "projects/material-wind/**/*.ts",
-              "projects/material-wind/**/*.html"
+              "projects/material/**/*.ts",
+              "projects/material/**/*.html"
             ],
-            "eslintConfig": "projects/material-wind/eslint.config.js"
+            "eslintConfig": "projects/material/eslint.config.js"
           }
         }
       }
     }
   },
   "cli": {
-    "schematicCollections": [
-      "angular-eslint"
-    ]
+    "schematicCollections": ["angular-eslint"]
   }
 }
