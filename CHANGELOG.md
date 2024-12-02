@@ -2,8 +2,6 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-### [0.1.23](https://github.com/AntoniadisCorp/ng-wind/compare/v0.2.0...v0.1.23) (2024-12-02)
-
 ### [0.1.23](https://github.com/AntoniadisCorp/ng-wind/compare/v0.1.22...v0.1.23) (2024-12-02)
 
 ### [0.1.22](https://github.com/AntoniadisCorp/ng-wind/compare/v0.1.21...v0.1.22) (2024-12-02)
@@ -38,10 +36,9 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.1.6](https://github.com/AntoniadisCorp/ng-wind/compare/v0.1.5...v0.1.6) (2024-12-02)
 
-
 ### Fixes
 
-* **karma config, angular.json:** fix karma.config, angular.json ([5c2e110](https://github.com/AntoniadisCorp/ng-wind/commit/5c2e1104bda3a09921b229dc46563888d1615cd6))
+- **karma config, angular.json:** fix karma.config, angular.json ([5c2e110](https://github.com/AntoniadisCorp/ng-wind/commit/5c2e1104bda3a09921b229dc46563888d1615cd6))
 
 ### [0.1.5](https://github.com/AntoniadisCorp/ng-wind/compare/v0.1.4...v0.1.5) (2024-12-02)
 
@@ -51,11 +48,10 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.1.2](https://github.com/AntoniadisCorp/ng-wind/compare/v0.1.1...v0.1.2) (2024-12-02)
 
-
 ### ⚠ BREAKING CHANGES
 
-* new library name @ng-wind/material
+- new library name @ng-wind/material
 
-* breakchanges new library name: @ng-wind/material ([83b8a18](https://github.com/AntoniadisCorp/ng-wind/commit/83b8a1827ac686859eaa22700e290cd78af448df))
+- breakchanges new library name: @ng-wind/material ([83b8a18](https://github.com/AntoniadisCorp/ng-wind/commit/83b8a1827ac686859eaa22700e290cd78af448df))
 
 ## 0.1.0 (2024-12-02)
