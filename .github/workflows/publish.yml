@@ -31,10 +31,6 @@ jobs:
       - name: Run tests
         run: npm test
 
-      - name: Build the library
-        run: npm run build
-
-      - name: Publish to npm
+      - run: npm run publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-        run: npm run publish
