@@ -1,6 +1,6 @@
 {
   "name": "material-wind",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -8,6 +8,7 @@
     "release": "standard-version",
     "release:minor": "standard-version --release-as minor",
     "release:major": "standard-version --release-as major",
+    "release:patch": "standard-version --release-as patch",
     "prerelease": "npm run test --single-run && npm run lint && npm run build",
     "postrelease": "git push --follow-tags origin main",
     "lint": "ng lint",
