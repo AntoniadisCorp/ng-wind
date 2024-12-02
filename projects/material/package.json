@@ -1,6 +1,6 @@
 {
   "name": "@ng-wind/material",
-  "version": "0.1.13",
+  "version": "0.1.16",
   "description": "An Angular library for demonstration purposes",
   "main": "bundles/material.umd.js",
   "module": "fesm2015/material.js",
