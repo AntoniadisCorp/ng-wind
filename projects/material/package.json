@@ -1,6 +1,6 @@
 {
   "name": "@ng-wind/material",
-  "version": "0.2.1",
+  "version": "0.2.3",
   "description": "An Angular library for demonstration purposes",
   "main": "bundles/material.umd.js",
   "module": "fesm2015/material.js",
@@ -10,7 +10,8 @@
     "release": "standard-version",
     "release:minor": "standard-version --release-as minor",
     "release:major": "standard-version --release-as major",
-    "release:patch": "standard-version --release-as patch"
+    "release:patch": "standard-version --release-as patch",
+    "build": "ng build"
   },
   "repository": {
     "type": "git",
@@ -30,8 +31,8 @@
   "homepage": "https://github.com/AntoniadisCorp/ng-wind#readme",
   "sideEffects": false,
   "peerDependencies": {
-    "@angular/common": "^16.0.0",
-    "@angular/core": "^16.0.0"
+    "@angular/common": "^16.0.0 || ^17.0.0 || ^18.2.12",
+    "@angular/core": "^16.0.0 || ^17.0.0 || ^18.2.12"
   },
   "dependencies": {
     "tslib": "^2.3.0"
