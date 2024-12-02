@@ -8,6 +8,14 @@ All notable changes to this project will be documented in this file. See [standa
 ### Features
 
 * **ripple.directive:** add ripple directive feature ([8c71e20](https://github.com/AntoniadisCorp/ng-wind/commit/8c71e205e5e6e54dd6f19c7dd60e1b786dbebe2b))
+* **ripple.module:** add test files ([af428bd](https://github.com/AntoniadisCorp/ng-wind/commit/af428bd26ca116e43a542dbbb52eb1e342e48b77))
+
+### [0.2.5](https://github.com/AntoniadisCorp/ng-wind/compare/v0.2.4...v0.2.5) (2024-12-02)
+
+
+### Features
+
+* **ripple.directive:** add ripple directive feature ([8c71e20](https://github.com/AntoniadisCorp/ng-wind/commit/8c71e205e5e6e54dd6f19c7dd60e1b786dbebe2b))
 
 ### [0.2.4](https://github.com/AntoniadisCorp/ng-wind/compare/v0.2.5...v0.2.4) (2024-12-02)
 
