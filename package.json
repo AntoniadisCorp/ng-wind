@@ -5,19 +5,20 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "lint": "ng lint",
+    "gitpush": "npx cz",
+    "watch": "ng build --watch --configuration development",
+    "test": "ng test",
     "release": "standard-version",
     "release:minor": "standard-version --release-as minor",
     "release:major": "standard-version --release-as major",
     "release:patch": "standard-version --release-as patch",
     "prerelease": "npm run test --single-run && npm run lint && npm run build",
     "postrelease": "git push --follow-tags origin main",
-    "lint": "ng lint",
     "version:major": "npm version major && git push --tags",
     "version:minor": "npm version minor && git push --tags",
     "version:patch": "npm version patch && git push --tags",
-    "publish": "npm run build && npm publish --access public",
-    "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "publish": "npm run build && npm publish --access public"
   },
   "config": {
     "commitizen": {
